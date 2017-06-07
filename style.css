@@ -1,0 +1,347 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face{
+	font-family: "Proxima Nova Regular";
+	src:url('asset/font/Proxima Nova Regular.otf');
+}
+@font-face{
+	font-family: "Proxima Nova Light";
+	src:url('asset/font/Proxima Nova Light.otf');
+}
+@font-face{
+	font-family: "Proxima Nova Semibold";
+	src:url('asset/font/Proxima Nova Semibold.otf');
+}
+/* ----------------------------- header --------------------------*/
+.wrapper{
+	margin: 0 auto;
+	width: 85%;
+}
+.tetap nav ul li a{
+
+}
+.tetap {
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 65px;
+	background: #595758;
+	color: #f8f8f8;
+	box-shadow: 0 0 10px #222;
+	transition: all .6s ease;
+}
+.tetap a h2{
+	padding-left: 100px;
+}
+.tetap ul{
+	margin: 0 auto;
+	width: 85%;
+	position: relative;
+}
+.header{
+
+}
+header{
+	background:  url(asset/img/bgh.png);
+	width: 100%;
+	height: 600px;
+}
+header .logo{
+	float: left;
+	padding: 20px 0px;
+}
+header .logo a{
+	font-family: 'Proxima Nova Semibold';
+	color: #fff;
+	text-decoration: none;
+}
+header nav ul li{
+	list-style: none;
+}
+header nav a{
+	text-decoration: none;
+	float: left;
+	color: #fff;
+	font-family: 'Proxima Nova Regular';
+	transition: all .3s ease;
+}
+header nav a:hover{
+	color: #10A0F7
+}
+header nav ul li{
+	float: right;
+	padding: 20px 30px;
+	display: inline-block;
+}
+.deskripsi{
+	padding-top: 170px;
+}
+.deskripsi .judul h2{
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Proxima Nova Semibold';
+}
+.deskripsi .judul p{
+	color: #fff;
+	font-family: 'Proxima Nova Light';
+	letter-spacing: 1px;
+	padding-top: 20px;
+	font-size: 15px;
+}
+.deskripsi .botton {
+	padding-top: 90px;
+}
+.deskripsi .botton a{
+	color: #fff;
+	font-family: 'Proxima Nova Regular';
+	text-decoration: none;
+	border: solid 1px #fff;
+	border-radius: 70px;
+	padding: 12px 55px;
+	transition: all .2s ease;
+}
+.deskripsi .botton a:hover{
+	background: #fff;
+	color: #10A0F7;
+}
+/* ----------------------------- end header --------------------------*/
+
+/* ----------------------------- content --------------------------*/
+.content .judul h2{
+	color: #38454f;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Proxima Nova Regular';
+	letter-spacing: 1px;
+}
+.content .judul .border{
+	border-bottom: solid 5px #10A0F7;
+	width: 50px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+.section{
+	float: left;
+	width: 30.50%;
+}
+.fixed_prices{
+	padding-top: 60px;
+	margin-left: 100px;
+}
+.content .fixed_prices img{
+	width: 0 auto;
+	height: 130px;
+}
+.content .fixed_prices p{
+	color: #38454f;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-left: 40px;
+	font-size: 19px;
+	font-family: 'Proxima Nova Regular';
+}
+.content .fixed_prices .border{
+	border-bottom: solid 5px #10A0F7;
+	width: 30px;
+	padding-top: 10px;
+	margin-left: 70px;
+}
+.fixed_prices h4{
+	color: #38454f;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 60px;
+	font-family: 'Proxima Nova Light';
+}
+.content2 {
+	margin-top: 70px;
+	background: #F7F7F7;
+	width: 100%;
+	height: 695px;
+}
+.content2 .judul h2{
+	color: #38454f;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Proxima Nova Regular';
+	letter-spacing: 1px;
+}
+.content2 .judul .border{
+	border-bottom: solid 5px #10A0F7;
+	width: 50px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+/* ----------------------------- end content --------------------------*/
+
+/* ----------------------------- content2 --------------------------*/
+.cover{
+	padding-top: 60px;
+	margin: 10px 30px -140px 30px;
+	float: left;
+}
+.coverdanur .coverimg img{
+	width: 0 auto;
+	height: 170px;
+}
+.coverdanur {
+	background: #fff;
+	width: 320px;
+	box-shadow: 0 0 5px #ccc;
+}
+.coverdanur .col1{
+	float: left;
+	position: relative;
+	top: -164px;
+	left: 136px;
+	font-size: 17px;
+	color: #38454f;
+	letter-spacing: 1px;
+	font-family: 'Proxima Nova Regular';
+}
+.coverdanur .col1 .space{
+	padding-top: 10px;
+}
+
+.coverdanur .col1 .ket2 img{
+	width: 0 auto;
+	height: 17px;
+	padding-left: 13px;
+}
+.coverdanur .col1 .ket2 a{
+	text-decoration: none;
+	border: solid 1px #3FB3F0;
+	background: #3FB3F0;
+	color: #fff;
+	border-radius: 70px;
+	font-size: 15px;
+	padding: 5px 38px;
+	transition: all .2s ease;
+}
+.coverdanur .col1 .ket2 a:hover{
+	color: #3FB3F0;
+	background: #fff;
+
+}
+/* ----------------------------- end content2 --------------------------*/
+
+/* ----------------------------- footer --------------------------*/
+footer{
+	background: #2A323F;
+	width: 100%;
+	height: 260px;
+	font-family: 'Proxima Nova Regular';
+	letter-spacing: 0.5px;
+}
+footer .col2{
+	float: left;
+	padding: 10px 90px 10px 30px;
+}
+footer .navigasi{
+	padding-top: 20px;
+}
+footer ul li{
+	list-style: none;
+	padding-top: 17px;
+}
+footer ul li a {
+	text-decoration: none;
+	color: #848e96;
+	font-size: 15px;
+	transition: all .2s ease;
+}
+footer ul li a:hover{
+	color: #fff;
+}
+footer ul li p{
+	color: #F2F2F2;
+	font-size: 23px;
+}
+footer .navigasi .imgmaps img{
+	width: 0 auto;
+	height: 120px;
+	padding-top: 20px;
+}
+footer .navigasi .imgmaps .address{
+	float: right;
+	padding-left: 24px;
+	padding-top: 19px;
+	color: #848e96;
+	font-size: 15px;
+}
+footer .navigasi .imgmaps .address .nomerhp {
+	padding-top: 14px;
+}
+footer .navigasi .imgmaps .address .email {
+	padding-top: 14px;
+}
+footer .navigasi .imgmaps .address .email a {
+	color: #3FB3F0;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+footer .navigasi .imgmaps .address .email a:hover{
+	color: #fff;
+}
+footer .navigasi .youremail{
+    width: 250px !important;
+    line-height: 40px;
+    border-radius: 2px;
+    border: solid 1px #3FB3F0;
+    margin-top: 20px;
+    padding-left: 12px;
+    font-size: 15px	
+}
+footer .navigasi .bottonnext{
+	float: right;
+	position: relative;
+	top: -36.5px;
+	right: 6.5px;
+}
+footer .navigasi .ketemail{
+	color: #848e96;
+	font-size: 15px;
+	padding-top: 20px;
+}
+.bawah {
+	background: #242C39;
+	width: 100%;
+	height: 67px;
+	font-family: 'Proxima Nova Regular';
+}
+.bawah nav ul li{
+	list-style: none; 
+	float: right;
+}
+.bawah nav a{
+	float: left;
+	padding: 25px 25px;
+	display: inline-block;
+}
+.bawah nav a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #F2F2F2;
+	transition: all .2s ease;
+}
+.bawah nav a:hover{
+	color: #10A0F7;
+}
+.bawah .logo{
+	float: left;
+	padding: 20px 0px;
+}
+.bawah .logo a{
+	font-family: 'Proxima Nova Semibold';
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+/* ----------------------------- end footer --------------------------*/
+.clear{
+	clear: both;
+}
